@@ -14,7 +14,7 @@ html {
 .header img {
   border-radius: 500px;
   padding: 10px;
-  margin-left: 80px; }
+  margin-left: 30px; }
 
 .header .nav-link {
   text-decoration: none;
@@ -22,6 +22,13 @@ html {
   font-weight: bold;
   font-size: 20px;
   /* margin-left: 20px; */ }
+
+.header .navbar-toggler img {
+  border-radius: 0;
+  height: 80px;
+  width: 60px;
+  display: flex;
+  border: none; }
 
 .dropdown-menu {
   background-color: black; }
@@ -60,14 +67,15 @@ html {
   background-color: yellow; }
 
 .contenedorDeCategorias {
-  padding: 60px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px; }
+  gap: 20px; }
   .contenedorDeCategorias img {
-    width: 290px;
-    height: 200px;
+    width: 280px;
+    height: 400px;
     border-radius: 20px; }
     .contenedorDeCategorias img:hover {
       transform: translate(42px, 18px);
@@ -76,6 +84,7 @@ html {
 .contenedorDeCards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   padding: 60px; }
   .contenedorDeCards .card-body {
@@ -117,6 +126,19 @@ html {
   width: 150px; }
   .dropdown-menu a {
     color: white; }
+  .dropdown-menu .contenedorDeCategorias {
+    padding: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; }
+    .dropdown-menu .contenedorDeCategorias img {
+      width: 260px;
+      height: 380px;
+      border-radius: 20px; }
+      .dropdown-menu .contenedorDeCategorias img:hover {
+        transform: none; }
 
 .todoElFooter {
   background-image: linear-gradient(to bottom, #afa50f, #d7d714, rgba(37, 35, 35, 0.852)); }
