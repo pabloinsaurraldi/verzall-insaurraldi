@@ -29,6 +29,22 @@
     font-family: 'Rubik Iso', cursive;
     background-color: yellow;
 }
+
+.titulosCategorias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 55px;
+    p{
+        text-align: center;
+        font-size: 30px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, rgb(175, 165, 15), rgb(215, 215, 20), rgba(37, 35, 35, 0.852));
+    }
+}
+
 .contenedorDeCategorias{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -41,7 +57,7 @@
         height: 400px;
         border-radius: 20px;
         &:hover {
-                transform: translate(42px, 18px);
+                transform: scale(1.1, 1.1);
                 transition: .5s;
             }
     }
@@ -76,6 +92,22 @@
 }
 
 @media (max-width: 991px) {
+
+    .contenedorDeCategorias{
+            padding: 50px;
+            padding-bottom: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+    }
+        img{
+            &:hover{
+                transform: none;
+            }
+        }
+
+
     .carousel {
         display: none;
     }
@@ -109,21 +141,5 @@
             color: white;
     }
 
-        .contenedorDeCategorias {
-            padding: 50px;
-            padding-bottom: 50px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-    
-            img {
-                width: 260px;
-                height: 380px;
-                border-radius: 20px;
-                &:hover {
-                    transform: none;
-                }
-            }
-}
+        
 }

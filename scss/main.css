@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+.header .colorHeader {
+  background-image: linear-gradient(to bottom, rgb(175, 165, 15), rgb(215, 215, 20), rgba(37, 35, 35, 0.852));
+}
+.header img {
+  border-radius: 500px;
+  padding: 10px;
+  margin-left: 30px;
+}
+.header .nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  /* margin-left: 20px; */
+}
+.header .navbar-toggler img {
+  border-radius: 0;
+  height: 80px;
+  width: 60px;
+  display: flex;
+  border: none;
+}
+
+.dropdown-menu {
+  background-color: black;
+}
+.dropdown-menu a {
+  color: white;
+}
+
+.colorBoton {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+}
+
+/* main de index */
+.main {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.alturaCarousel img {
+  height: 400px;
+}
+
+.contenedorDeTexto {
+  padding: 30px;
+}
+.contenedorDeTexto p {
+  padding-top: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.contenedorDeTexto .tituloTexto {
+  font-size: 20px;
+}
+
+.colorDeTitulos {
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Rubik Iso", cursive;
+  background-color: yellow;
+}
+
+.contenedorDeCategorias {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.contenedorDeCategorias img {
+  width: 280px;
+  height: 400px;
+  border-radius: 20px;
+}
+.contenedorDeCategorias img:hover {
+  transform: translate(42px, 18px);
+  transition: 0.5s;
+}
+
+.contenedorDeCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px;
+}
+.contenedorDeCards .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.contenedorDeCards .btn-primary {
+  background-color: rgb(5, 5, 5);
+  font-weight: bold;
+}
+
+.card {
+  height: 500px;
+  border-radius: 20px;
+  background: linear-gradient(to top, rgba(219, 180, 7, 0.87), #FEBE10, black);
+}
+.card a:hover {
+  transform: scale(1.4, 1.4);
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .carousel {
+    display: none;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: center;
+  }
+  .card a:hover {
+    font-weight: bold;
+    transform: none;
+    text-decoration: none;
+  }
+}
+.dropdown-item a:hover {
+  transform: none;
+}
+
+.dropdown-menu {
+  background-color: black;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+.dropdown-menu a {
+  color: white;
+}
+.dropdown-menu .contenedorDeCategorias {
+  padding: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.dropdown-menu .contenedorDeCategorias img {
+  width: 260px;
+  height: 380px;
+  border-radius: 20px;
+}
+.dropdown-menu .contenedorDeCategorias img:hover {
+  transform: none;
+}
+
+.todoElFooter {
+  background-image: linear-gradient(to bottom, rgb(175, 165, 15), rgb(215, 215, 20), rgba(37, 35, 35, 0.852));
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  gap: 20px;
+}
+.redesSociales a:hover {
+  transform: rotate(25deg);
+  transition: 0.5s;
+}
+.redesSociales .logoFace {
+  border-radius: 15px;
+}
+
+.parrafoDeCopy {
+  text-align: center;
+  padding-bottom: 5px;
+  color: black;
+  font-weight: bolder;
+}
+
+.fontColor {
+  color: white;
+}
+
+.mapaUbicacion {
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 70%;
+  padding: 20px;
+}
+
+.contenedorDireccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.contenedorContactanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorContactanos textarea {
+  width: 280px;
+  padding-bottom: 20px;
+}
+.contenedorContactanos .datosPersonales {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contenedorContactanos .datosPersonales input {
+  width: 300px;
+}
+.contenedorContactanos .datosPersonales input:focus {
+  background-color: yellow;
+}
+.contenedorContactanos .datosPersonales textarea {
+  width: 300px;
+}
+.contenedorContactanos .datosPersonales textarea:focus {
+  background-color: yellow;
+}
+
+.selectores {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.selectoresTexto span {
+  color: white;
+}
+
+.pago {
+  padding-bottom: 30px;
+}
+
+.enviarYReset {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.enviarYReset .send {
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+}
+.enviarYReset .reset {
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
