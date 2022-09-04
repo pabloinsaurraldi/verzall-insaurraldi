@@ -2,11 +2,27 @@
 .main {
     background-image: $fondoMain;
 }
+
 .alturaCarousel{
     img{
         height: 400px;
     }
 }
+
+.breadcrumb{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: $textoPerifericos;
+    color: white;
+    list-style: none;
+    .breadcrumb-item{
+        a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
 .contenedorDeTexto{
     padding: 30px;
     p{

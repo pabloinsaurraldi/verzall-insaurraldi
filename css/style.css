@@ -57,6 +57,16 @@ html {
 .alturaCarousel img {
   height: 400px; }
 
+.breadcrumb {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  list-style: none; }
+  .breadcrumb .breadcrumb-item a {
+    color: white;
+    text-decoration: none; }
+
 .contenedorDeTexto {
   padding: 30px; }
   .contenedorDeTexto p {
