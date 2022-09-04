@@ -6,5 +6,5 @@ Se agrego mixin para el texto perifericos ubicado dentro del index.
 Se agregaron las siguientes keywords en el index: hardware, perifericos, computadoras, monitores, intel, amd, nvidia.
 Se agrego la siguiente descripcion en el index: "Verzall se dedica a la venta de hardware, y todo tipo de accesorios para pc"
 Al titulo de cada pagina se le agrego el nombre del html en el que estamos
-
+Se agrego una lista de ruta de exploracion en todas las paginas y se le dio estilo personal.
 
