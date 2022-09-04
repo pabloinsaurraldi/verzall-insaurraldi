@@ -77,6 +77,8 @@ html {
   .contenedorDeTexto .tituloTexto {
     font-size: 20px; }
 
+/* extend */
+/* mixin */
 .leyendaPerifericos {
   font-size: 20px;
   padding: 10px;
@@ -95,10 +97,10 @@ html {
   font-weight: bold;
   padding-top: 55px; }
   .titulosCategorias p {
+    background-image: linear-gradient(to bottom, #afa50f, #d7d714, rgba(37, 35, 35, 0.852));
     text-align: center;
     font-size: 30px;
-    border-radius: 10px;
-    background-image: linear-gradient(linear-gradient(to bottom, #afa50f, #d7d714, rgba(37, 35, 35, 0.852))); }
+    border-radius: 10px; }
 
 .contenedorDeCategorias {
   padding-top: 50px;

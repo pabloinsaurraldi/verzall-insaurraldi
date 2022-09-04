@@ -37,10 +37,12 @@
 
 }
 
+/* extend */
 .colorDeTitulos{
     @extend %titulosYDestacados;
 }
 
+/* mixin */
 .leyendaPerifericos{
     @include estiloTexto (20px, $textoPerifericos, center)
 }
@@ -52,11 +54,12 @@
     color: white;
     font-weight: bold;
     padding-top: 55px;
+    
     p{
+        background-image: ($fondoHeader);
         text-align: center;
         font-size: 30px;
         border-radius: 10px;
-        background-image: linear-gradient($fondoHeader);
     }
 }
 
