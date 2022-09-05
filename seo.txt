@@ -20,3 +20,4 @@ Contactanos: pedinos un presupuesto, o escribinos por cualquier consulta, estare
 Al titulo de cada pagina se le agrego el nombre del html en el que estamos.
 Se agrego una lista de ruta de exploracion en todas las paginas y se le dio estilo personal.
 
+se agrego un h1 a todas las paginas.
