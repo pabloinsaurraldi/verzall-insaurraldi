@@ -67,6 +67,13 @@ html {
     color: white;
     text-decoration: none; }
 
+.tituloPrincipal {
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  color: black;
+  text-align: center;
+  padding-top: 30px; }
+
 .contenedorDeTexto {
   padding: 30px; }
   .contenedorDeTexto p {
