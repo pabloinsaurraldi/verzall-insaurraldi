@@ -68,7 +68,7 @@ html {
     text-decoration: none; }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Press Start 2P", cursive;
   color: black;
   text-align: center;
@@ -156,8 +156,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; }
-  img:hover {
-    transform: none; }
+  .card {
+    height: 400px;
+    border-radius: 20px;
+    background: linear-gradient(to top, rgba(247, 235, 6, 0.87), #ad9553, black); }
+    .card img:hover {
+      transform: none; }
   .carousel {
     display: none; }
   .nav-link {
