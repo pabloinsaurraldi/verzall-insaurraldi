@@ -72,8 +72,7 @@ h1 {
   font-family: "Press Start 2P", cursive;
   color: black;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  padding: 15px; }
 
 .contenedorDeTexto {
   padding: 30px; }
@@ -157,7 +156,7 @@ h1 {
     justify-content: center;
     gap: 20px; }
   .card {
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     background: linear-gradient(to top, rgba(247, 235, 6, 0.87), #ad9553, black); }
     .card img:hover {
