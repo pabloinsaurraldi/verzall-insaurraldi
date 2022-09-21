@@ -51,7 +51,7 @@ h1{
     font-family: $titulosIndex;
     color: black;
     text-align: center;
-    padding: 35px;
+    padding: 8px;
 }
 
 .contenedorDeTexto{
@@ -75,7 +75,7 @@ h1{
 
 /* mixin */
 .leyendaPerifericos{
-    @include estiloTexto (20px, $textoPerifericos, center)
+    @include estiloTexto (20px, $textoPerifericos, center);
 }
 
 .titulosCategorias{
@@ -116,7 +116,8 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    padding: 10px;
+    padding: 80px 40px;
+
     .card-body {
         display: flex;
         flex-direction: column;
@@ -229,9 +230,12 @@ h1{
 
 @media (max-width: 991px) {
 
+    h1{
+        font-size: 15px;
+    }
+
     .contenedorDeCategorias{
             padding: 50px;
-            padding-bottom: 50px;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -248,6 +252,7 @@ h1{
 
     .card{
         height: 450px;
+        width: 250px;
         border-radius: 20px;
         background: $fondoCards;
         img{

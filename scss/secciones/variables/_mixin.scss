@@ -1,10 +1,8 @@
-@mixin estiloTexto ($tamanio, $textoParaPerifericos, $ubicacionTexto) {
+@mixin estiloTexto ($tamanio, $textoPerifericos, $ubicacionTexto) {
     font-size: $tamanio;
-    padding: 10px;
-    display: flex;
     justify-content: center;
     color: black;
-    font-family: $textoParaPerifericos;
+    font-family: $textoPerifericos;
     background-color: yellow;
     text-align: $ubicacionTexto;
 }
