@@ -1,0 +1,98 @@
+main{
+    background-image: $fondoMain;
+}
+
+.mainDeCarrito{
+    background-color: $fondoMain;
+}
+
+.contenedorGrid {
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: 
+      "imagenPrincipalCarrito textoDeMantenimiento"
+      "gifGracioso gifGracioso2"; 
+}
+
+.imagenPrincipalCarrito { grid-area: imagenPrincipalCarrito; }
+.gifGracioso { grid-area: gifGracioso; }
+.gifGracioso2 { grid-area: gifGracioso2; }
+.textoDeMantenimiento { grid-area: textoDeMantenimiento; }
+
+.imagenPrincipalCarrito{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    img{
+        width: 500px;
+    }
+}
+
+.gifGracioso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 300px;
+    }
+}
+
+.gifGracioso2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 300px;
+    }
+}
+
+.textoDeMantenimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
+@media (max-width: 951px) {
+    .contenedorGrid {
+        grid-template-columns: 100%; 
+        grid-template-rows: 250px 350px 300px 200px; 
+        grid-template-areas: 
+        "imagenPrincipalCarrito"
+        "gifGracioso"
+        "gifGracioso2"
+        "textoDeMantenimiento"; 
+    }
+
+    .imagenPrincipalCarrito{
+        display: flex;
+        align-items: center;
+        padding-top: 25px;
+        img{
+            width: 300px;
+        }
+    }
+
+    .gifGracioso{
+        img{
+            width: 300px;
+        }
+    }
+    
+    .gifGracioso2{
+        padding-bottom: 15px;
+        img{
+            width: 300px;   
+        }
+    }
+
+    .textoDeMantenimiento{
+        font-size: 20px;
+    }
+    
+}

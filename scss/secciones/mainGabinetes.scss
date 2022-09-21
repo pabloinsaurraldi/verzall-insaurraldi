@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+.contenedor {
+    height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    gap: 30px;
+    padding: 30px;
+	.tarjetaGabinete {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+		position: relative;
+		height: 250px;
+		width: 250px;
+		overflow: hidden;
+		border-radius: 6px;
+        background-image: $fondoCards;
+		img {
+			width: 70%;
+			transition: all 400ms ease-out;
+		}
+		.capa {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			transition: all 400ms ease-out;
+			opacity: 0;
+			visibility: hidden;
+			text-align: center;
+			color: white;
+			font-weight: bold;
+			margin-bottom: 120px;
+			transition: all 400ms ease-out;
+            .botonVer{
+                background-color: black;
+                width: 100px;
+                color: yellow;
+                border-radius: 5px;
+                margin-bottom: 15PX;
+                &:hover{
+                    transform: scale(1.1, 1.1);
+                }
+            }
+			
+			p {
+				color: white;
+				font-size: 15px;
+				line-height: 1.5;
+				width: 100%;
+				max-width: 220px;
+				margin: auto;
+			}
+		}
+		&:hover {
+			>.capa {
+				opacity: 1;
+				visibility: visible;
+                background-color: rgba(31, 30, 30, 0.827);
+				h6 {
+					margin-top: 70px;
+					margin-bottom: 15px;
+				}
+			}
+			>img {
+				transform: scale(1.3);
+			}
+		}
+	}
+}
+
+  

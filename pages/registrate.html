@@ -59,82 +59,47 @@
         </nav>
     </header>
 
-    <main class="main">
+    <main>
 
         <div class="login">
             <div class="migasDePan">
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                        <li class="breadcrumb-item" aria-current="page">Contactanos</li>
+                        <li class="breadcrumb-item" aria-current="page">Registro</li>
                     </ol>
-                </nav>    
-            </div>
-
-            <h1 class="animate__animated animate__flip">No dudes y escribinos</h1>
-
-            <div class="loginYCarrito">
-                <div class="iconoRegistro">
-                    <a href="../pages/registrate.html">
-                        <lord-icon src="https://cdn.lordicon.com/kxrhwtdg.json" trigger="hover"
-                            colors="primary:#000000,secondary:#e8e230" stroke="70" scale="50"
-                            style="width:60px;height:60px">
-                        </lord-icon>
-                    </a>
-                </div>
-                <div class="iconoCarrito">
-                    <a href="../pages/carrito.html">
-                        <lord-icon src="https://cdn.lordicon.com/lpddubrl.json" trigger="hover"
-                            colors="primary:#000000,secondary:#e8e230" style="width:60px;height:60px">
-                        </lord-icon>
-                    </a>
-                </div>
+                </nav>
             </div>
             </nav>
         </div>
-
-        <div class="contenedorContactanos">
-            <form action="#" method="get">
-                <div class="datosPersonales">
-                    <input class="datos" type="text" name="Nombre" placeholder="Nombre" required>
-                    <br><br>
-                    <input class="datos" type="number" name="Edad" placeholder="Edad" required>
-                    <br><br>
-                    <input class="datos" type="email" name="Email" placeholder="Email" required>
-                </div>
-                <!-- botones radio -->
-                <div class="selectores">
-                    <input type="radio" name="tipoDePc" value="Hogar" required>
-                    <span class="selectoresTexto">Gamer</span>
-                    <br><br>
-                    <input type="radio" name="tipoDePc" value="Gaming" required>
-                    <span class="selectoresTexto">Hogar</span>
-                    <br><br>
-                    <input type="radio" name="tipoDePc" value="Workstation" required>
-                    <span class="selectoresTexto">Workstation</span>
-                </div>
-                <div class="selectoresTexto">
-                    <input type="checkbox" name="recibirOfertas" value="si">
-                    <span>Quiero recibir por correo las ofertas y promociones</span>
-                </div>
-                <div class="datosPersonales">
-                    <textarea name="comentarios" cols="35" rows="5" placeholder="Comentarios"></textarea>
-                </div>
-                <div class="pago">
-                    <select name="formaDePago">
-                        <option value="efectivo">Efectivo</option>
-                        <option value="transferencia">Transferencia</option>
-                        <option value="tarjeta">Tarjeta de crédito</option>
-                    </select>
-                </div>
-                <div class="enviarYReset">
-                    <input class="send" type="submit">
-                    <div>
-                        <input class="reset" type="reset">
+        <section>
+            <div class="contenedorRegistro">
+                <form action="#" method="get">
+                    <div class="usuarioYPass">
+                        <input class="datos" type="text" name="Nombre" placeholder="Nombre de usuario" required>
+                        <br><br>
+                        <input class="form-control" type="password" name="Password" placeholder="Contraseña" required>
                     </div>
-                </div>
-            </form>
-        </div>
+                    <div class="bodyRegistro">
+                        <div class="leyendasRegistro">
+                            <div class="checkSesion">
+                                <input type="checkbox" name="recibirOfertas" value="si">
+                                <span class="mantenerSesion">Mantener mi sesión abierta</span>
+                            </div>
+                            <br><br>
+                            <a class="textoContraseña" href="#">Olvidaste tu contraseña?</a>
+                        </div>
+                        <br><br>
+                        <button type="send" class="inicioSesion">Iniciar Sesión</button>
+                    </div>
+                </form>
+                    <hr>
+                    <div class="crearCuenta">
+                        <span class="sinCuenta">No tenés una cuenta?</span>
+                        <a href="#"><button type="button" class="botonRegistro">Registrate</button></a>
+                    </div>
+            </div>
+        </section> 
     </main>
 
     <footer>

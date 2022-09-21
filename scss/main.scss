@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    height: 100vh;
-    width: 100%
-}
+
 
 @import './secciones/variables/colores';
 @import './secciones/variables/tipografias';
@@ -18,4 +15,7 @@ html{
 @import './secciones/footer';
 @import './secciones/main-ubicacion';
 @import './secciones/main-contactanos';
-
+@import './secciones/carrito.scss';
+@import './secciones/registro.scss';
+@import './secciones/mainComponentes.scss';
+@import './secciones/mainGabinetes.scss';

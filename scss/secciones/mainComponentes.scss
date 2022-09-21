@@ -1,0 +1,67 @@
+
+.bodyComponentes{
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.cardHorizontal{
+    width: 500px;
+    height: 300px;
+    background-image: $fondoCards;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+    .contTxtCardHorizontal{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        .precioCardHorizontal{
+            text-align: center;
+        } 
+        .contBtnCardHorizontal{
+            text-align: center;
+            .botonComprar{
+                width: 100px;
+                height: 45px;
+                border-radius: 5px;
+                background-color: black;
+                color: yellow;
+                &:hover{
+                    transform: skew(10deg);
+                }
+            }
+            
+        }
+    }
+    .contImgCardHorizontal{
+        a{
+            .imgCardHorizontal{
+                &:hover {
+                    transform: scale(1.2, 1.2);
+                    transition: .5s;
+                }
+            }
+        }    
+    }     
+    .imgCardHorizontal{
+        width: 250px;
+    }
+    .tituloCardHorizontal{
+        text-align: center;
+    }
+
+
+    @media (max-width: 635px) {
+        .cardHorizontal{
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            width: 290px;
+            justify-content: space-around;
+        }
+
+    }
