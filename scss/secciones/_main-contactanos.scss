@@ -59,3 +59,23 @@
         color: white;
     }
 }
+
+@media (max-width: 400px) {
+    .datosPersonales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .selectores{
+        margin-left: 30px;
+    }
+    .selectoresTexto{
+        margin-left: 30px;
+    }
+    .pago{
+        margin-left: 30px;
+    }
+    .enviarYReset{
+        margin-left: 30px;
+    }
+}
